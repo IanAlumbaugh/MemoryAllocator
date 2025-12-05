@@ -1,39 +1,3 @@
-////////////////////////////////////////////////////////////////////////////////
-// Main File:        p3Heap.c
-// This File:        p3Heap.c
-// Other Files:      p3Heap.o, p3Heap.h, Makefile, test files
-// Semester:         CS 354 Lecture 002 Fall 2025
-// Grade Group:      gg11  (Canvas course -> People -> click on your name to see your gg#)
-// Instructor:       Gary Dahl
-// 
-// Author:           Ian Alumbaugh
-// Email:            alumbaugh@wisc.edu
-// CS Login:         alumbaugh
-//
-///////////////////////////  OPTIONAL WORK LOG  //////////////////////////////
-//  Document your work sessions here or on your copy http://tiny.cc/cs354-work-log
-//  Keep track of commands, structures, and code that you have learned.
-//  This will help you focus your review on what is new to you from each program.
-//  There is no need to submit work log, unless we ask you to do so.
-//////////////////// REQUIRED -- OTHER SOURCES OF HELP ///////////////////////// 
-// Persons:          Identify persons by name, relationship to you, and email.
-//                   Describe in detail the ideas and help they provided.
-//
-// Online sources:   Avoid web searches to solve your problems, but if you do
-//                   search, be sure to include Web URLs and description of 
-//                   of any information you find.
-// 
-// AI chats:         Save a transcript and submit with your project.
-//////////////////////////// 80 columns wide ///////////////////////////////////
-
-/////////////////////////////////////////////////////////////////////////////
-//
-// Copyright 2020-2025 Deb Deppeler based on work by Jim Skrentny
-// Posting or sharing this file is prohibited, including any changes.
-// Used with permission, CS354 FALL 2025, Hina Mahmood
-//
-/////////////////////////////////////////////////////////////////////////////
-
 #include <unistd.h>
 #include <stdio.h>
 #include <sys/types.h>
@@ -481,7 +445,4 @@ void disp_heap() {
     fflush(stdout);
 
     return;  
-} 
-
-//		p3Heap.c		END OF FILE			202509
-                                       
+}
