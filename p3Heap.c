@@ -107,7 +107,6 @@ char* heap_end = NULL; // Address of where the heap ends
  *       block header. It is the address of the start of the 
  *       available memory for the requester.
  *
- * Tips: Be careful with pointer arithmetic and scale factors.
  */
 void* alloc(int size) {     
 	//DONE: Your code goes in here.
@@ -211,9 +210,6 @@ void* alloc(int size) {
  * they will be immediately coalesced into one larger free block.
  * so free blocks require a footer (blockHeader works) to store the size
  *
- * TIP: work on getting immediate coalescing to work after your code 
- *      can pass the tests in partA and partB of tests/ directory.
- *      Submit code that passes partA and partB to Canvas before continuing.
  */
 int free_block(void *ptr) {
 	//DONE: Your code goes in here.
@@ -361,10 +357,7 @@ int init_heap(int sizeOfRegion) {
     return 0;
 } 
 
-/* STUDENTS MAY EDIT THIS FUNCTION, but do not change function header.
- * TIP: Review this implementation to see one way to traverse through
- *      the blocks in the heap.
- *
+/*
  * Can be used for DEBUGGING to help you visualize your heap structure.
  * It traverses heap blocks and prints info about each block found.
  * 
